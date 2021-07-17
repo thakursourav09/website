@@ -1,0 +1,373 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.background{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)),url(food.jpeg);
+    height: 463px;
+    width:100%;
+    background-position:center;
+    background-size:cover;
+   
+
+}
+
+.navbar{
+    background:rgba(0,0,0,0.4);
+    height: 65px;
+    width: 100%;
+  
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 24px;
+  
+   
+}
+
+ul li {
+   
+    font-size: 15px;
+   font-family: sans-serif;
+  padding-inline: 18px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    
+}
+nav img{
+    height: 63px;
+    width: 69px;
+    float: right;
+    margin-right: 48%;
+    margin-top: 2px;
+    border-radius: 46px;
+    cursor: pointer;
+  }
+  ul li a:hover{
+      background: white;
+      border-radius: 8px;
+      color: black;
+      padding:  2px ;
+      font-family: sans-serif; 
+      
+  }
+
+  .back-firstsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.big-font{
+    
+        margin-top: 88px;
+        font-family: 'Averia Serif Libre', cursive;
+        color: white;
+        font-size: 30px;
+        padding: 4px;
+      
+}
+.small-font{
+    
+    color: white;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    padding: 3px;
+}
+.btn{
+    font-family: 'Baloo Bhai 2', cursive;
+    background: none;
+    border: 1px solid white;
+    height: 40px;
+    width: 97px;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    width: 135px;
+    background:linear-gradient(to right,  green, yellow);
+    transition: 0.8s;
+    opacity: 0.9;
+
+}
+/*
+section   2*/
+
+.service-container{
+    background: antiquewhite;
+    display:flex;
+}
+.sevices{
+  
+    text-align: center;
+    padding: 22px;
+    font-size: 29px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: antiquewhite;
+}
+
+
+.box{  
+    border: 1px solid grey;
+    border-radius: 45px;
+    padding: 12px;
+    background: antiquewhite;
+    margin: 25px;
+}
+
+.box img{
+     height: 160px;
+     margin: auto;
+     display: block;
+     cursor: pointer;
+ 
+}
+.font-bigy{
+    justify-content: center;
+    text-align: center;
+    padding: 3px;
+    font-family: 'Train One', cursive;
+    font-size: 26px;
+}
+.font-smal{
+    font-family: 'bree-serif',serif;
+    padding: 6px;
+    color: black;
+    font-size: 18px;   
+}
+.big-client-font{
+    text-align: center;
+    padding: 22px;
+    font-size: 29px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: antiquewhite;
+}
+
+
+
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    margin-right: -17px;
+   
+   
+}
+
+.clients img{
+   cursor: pointer;
+    height: 76px;
+   
+}
+.client-section{
+    height: 344px;
+    position: relative;
+}
+.client-section::before{
+    content:"" ;
+    position: absolute;
+    background: url('table foodd.jpg');
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    
+}
+/*new sectiton contact us*/
+
+.contact{
+    height: 570px;
+    text-align: center;
+    position: relative;
+   
+}
+ 
+.contact::before{
+    content: "";
+    position: absolute;
+    background: url('contact us.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    margin: auto;
+    display: block;
+   
+}
+div .form{
+   height: 30px;
+}
+
+.text{
+   display: block;
+   margin: auto;
+    width: 750px;
+    border: 2px solid grey;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding: 5px 11px;
+    border-radius: 7px;
+}
+
+.big-contact{
+    
+    font-size: 29px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 6px;
+}
+#area{
+    height: 244px;
+    width: 750px;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 5px 11px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 68px;
+    border-radius: 7px;
+    border: 2px solid grey;
+    display: block;
+    margin: auto;
+}
+
+.btn-green{
+    font-family:  Arial, Helvetica, sans-serif;
+    background: none;
+    border: 2px solid grey;
+    height: 39px;
+    width: 101px;
+    color: black;
+    margin-top: 17px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+  
+    border-radius: 7px;
+
+}
+
+.btn-green:hover{
+   
+    background:linear-gradient(to right,  black, black);
+    transition: 0.6s;
+    color: white;
+    border: 1px solid white;
+    opacity: 0.9;   
+
+}
+.futer{
+    background: #555151;
+    color: white;
+    height: 20px;
+    text-align: center;
+    padding: 22px;
+    font-size: 17px;
+}
+
+@media (max-width:1440px){
+    .btn-green{
+        margin-top: 0px;
+       
+    }
+    .contact{
+        height: 630px;
+    }
+}
+@media (max-width:1280px){
+   
+}
+
+@media (max-width:900px){
+    
+ .big-font{
+     
+    font-size: 25px;
+    padding: 0px;
+      
+}
+.small-font{
+    font-size: 15px;
+    padding: 0px;
+}
+ul li{
+    padding-inline: 10px;
+}
+#area{
+    width: 650px;
+}
+.text{
+    width: 650px;
+}
+}
+@media (max-width:540px){
+    #area{
+        width: 450px;
+    }
+   
+    .text{
+        width: 450px;
+    }
+}
+@media (max-width:450px){
+    ul li{
+        padding-inline: 5px;
+    }
+    .btn-green{
+        width: 80px;
+    }
+    .futer{
+        font-size: 10px;
+    }
+    #area{
+        width: 250px;
+        height: 170px;
+    }
+    .text{
+        width: 250px;
+    }
+    .clients img{
+        height: 50px;
+        margin-top: 15px;
+    }
+    
+.clients{
+  
+    padding: 13px;
+    flex-wrap: wrap;
+    margin-right: -6px;
+   
+   
+   
+}
+nav img{
+    margin-right: 42%;
+}
+}
+@media (max-width:300px){
+       
+ .big-font{
+     
+    font-size: 20px;
+    padding: 0px;
+    margin-top: 70px;
+      
+}
+.small-font{
+    font-size: 10px;
+    padding: 0px;
+}
+}
